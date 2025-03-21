@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Paint Application
+</name>
+</assembly>
+<members>
+<member name="T:Paint_Application.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Paint_Application.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Paint_Application.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Paint_Application.Customize.Red_trackbar_Scroll(System.Object,System.EventArgs)">
+ <summary>
+ The method that handles th sliders value when the user uses red trackbar
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Customize.Green_trackbar_Scroll(System.Object,System.EventArgs)">
+ <summary>
+ The method that handles th sliders value when the user uses green trackbar
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Customize.Blue_trackbar_Scroll(System.Object,System.EventArgs)">
+ <summary>
+ The method that handles th sliders value when the user uses blue trackbar
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Customize.Brush_trackbar_Scroll(System.Object,System.EventArgs)">
+ <summary>
+ The method that handles the sliders value when the user uses brush size between 0 to 70
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Customize.Apply_button_Click(System.Object,System.EventArgs)">
+ <summary>
+ The apply button is used in class customization which update the color value in the mybrush which in drawing class
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Customize.Display_color_Click(System.Object,System.EventArgs)">
+ <summary>
+ The display color button displays the rgb color that is choosed and is going to be displayed
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Drawing.Customize_button_Click(System.Object,System.EventArgs)">
+ <summary>
+ By clicking on Customize button we are directed to second form which is customization for bursh
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Drawing.PictureBox1_Click(System.Object,System.EventArgs)">
+ <summary>
+ this is the  picture box where user will be able to draw
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Drawing.Clear_button_Click(System.Object,System.EventArgs)">
+ <summary>
+ clear box clears the done drawing done in the picture box
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Paint_Application.Drawing.Exit_button_Click(System.Object,System.EventArgs)">
+ <summary>
+ exit button exits the application
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
